@@ -18,7 +18,7 @@ Uma aplicação web simples e intuitiva para organização de tarefas diárias. 
 - [ ] Filtrar por status, prioridade ou categoria
 - [ ] Buscar tarefas por palavra-chave
 - [ ] Interface responsiva
-- [ ] Tema escuro e claro
+- [X] Tema escuro e claro
 - [ ] Persistência com LocalStorage
 - [ ] Drag and Drop para reordenar tarefas (em desenvolvimento)
 
@@ -56,5 +56,5 @@ A aplicação está hospedada em:
 ##  Desenvolvido por
 Tatyane — Estudante de Sistemas de Informação
 
-- GitHub: [@seu-usuario]()
-- LinkedIn: [linkedin.com/in/seu-perfil]()
+- GitHub: [@tatyanepgoncalves](https://github.com/tatyanepgoncalves)
+- LinkedIn: [in/tatyaneopgoncalves](https://www.linkedin.com/in/tatyanegoncalves/)
