@@ -1,69 +1,60 @@
-# React + TypeScript + Vite
+# Aplicativo Web de Lista de Tarefas (To-do List)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Badge](https://img.shields.io/badge/status-em%20desenvolvimento-yellow) ![Responsivo](https://img.shields.io/badge/Responsivo-Sim-blue)
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Uma aplicação web simples e intuitiva para organização de tarefas diárias. Criada para ajudar usuários a manterem o foco e a produtividade, com funcionalidades de categorização, priorização e filtros.
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Demonstração
+> Em breve!
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+## Funcionalidades
+- [ ] Adicionar, editar e excluir tarefas
+- [ ] Marcar tarefas como concluídas
+- [ ] Priorizar tarefas (baixa, média, alta)
+- [ ] Categorizar tarefas (trabalho, pessoal, estudos)
+- [ ] Filtrar por status, prioridade ou categoria
+- [ ] Buscar tarefas por palavra-chave
+- [ ] Interface responsiva
+- [ ] Tema escuro e claro
+- [ ] Persistência com LocalStorage
+- [ ] Drag and Drop para reordenar tarefas (em desenvolvimento)
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## Tecnologias Utilizadas
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+| Tecnologia       | Descrição                                               |
+|------------------|---------------------------------------------------------|
+| **React**        | Biblioteca para construção da interface de usuário      |
+| **Tailwind CSS** | Framework utilitário para estilização rápida            |
+| **LocalStorage** | Armazenamento local no navegador                        |
+| **Vite**         | Ferramenta de build rápida para desenvolvimento moderno |
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## Decisões Técnicas
+- React + Tailwind foram escolhidos pela produtividade e velocidade de prototipação.
+- O uso de LocalStorage simplifica o deploy e evita dependência com backend.
+- A arquitetura modular com componentes reutilizáveis favorece manutenção e escalabilidade futura.
+- Design responsivo pensado desde o início para uso mobile-first.
+
+---
+
+##  Deploy
+A aplicação está hospedada em:
+
+🔗 [todo-list.vercel.app]()
+
+## Melhorias Futuras
+- Integração com backend (Node ou Firebase)
+- Login de usuários
+- Notificações ou lembretes
+- Tarefas recorrentes
+- Animações com Framer Motion
+
+##  Desenvolvido por
+Tatyane — Estudante de Sistemas de Informação
+
+- GitHub: [@seu-usuario]()
+- LinkedIn: [linkedin.com/in/seu-perfil]()
